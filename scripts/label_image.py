@@ -68,7 +68,7 @@ def load_labels(label_file):
   return label
 
 if __name__ == "__main__":
-  file_name = "1200px-Cat03.jpg"
+  file_name = "puppy-090517-dog-featured-355w-200h-d.jpg"
   model_file = "tf_files/retrained_graph.pb"
   label_file = "tf_files/retrained_labels.txt"
   input_height = 224
